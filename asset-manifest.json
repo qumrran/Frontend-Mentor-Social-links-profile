@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Frontend-Mentor-Social-links-profile/static/css/main.6c2cd202.css",
+    "main.js": "/Frontend-Mentor-Social-links-profile/static/js/main.ca7efe8d.js",
+    "index.html": "/Frontend-Mentor-Social-links-profile/index.html",
+    "main.6c2cd202.css.map": "/Frontend-Mentor-Social-links-profile/static/css/main.6c2cd202.css.map",
+    "main.ca7efe8d.js.map": "/Frontend-Mentor-Social-links-profile/static/js/main.ca7efe8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c2cd202.css",
+    "static/js/main.ca7efe8d.js"
+  ]
+}
