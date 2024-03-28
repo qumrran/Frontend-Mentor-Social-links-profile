@@ -9,8 +9,10 @@ import person from './components/person.js';
 function App() {
   return (
     <div className="App">
-      <Header person = {person}/>
-      <ButtonPanel person = {person}/>
+      <div className='App__container'>
+        <Header person = {person}/>
+        <ButtonPanel person = {person}/>
+      </div>
     </div>
   );
 }

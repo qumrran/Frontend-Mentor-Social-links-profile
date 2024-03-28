@@ -1,0 +1,29 @@
+@import '../variables/variables.scss';
+
+.btnPanel {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 17.4rem;
+        height: 2.8rem;
+        background-color: $grey;
+        border-radius: 0.6rem;
+        font-family: $inter;
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: $white;
+        text-decoration: none;
+        cursor: pointer; 
+        transition: background-color 0.3s, color 0.3s;
+
+        &:hover {
+            background-color: $green;
+            color: $dark-grey;
+        }
+    }
+}

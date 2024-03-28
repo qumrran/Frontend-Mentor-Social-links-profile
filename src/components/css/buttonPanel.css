@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.btnPanel {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+.btnPanel__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 17.4rem;
+  height: 2.8rem;
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 0.6rem;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btnPanel__button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 12%);
+}/*# sourceMappingURL=buttonPanel.css.map */

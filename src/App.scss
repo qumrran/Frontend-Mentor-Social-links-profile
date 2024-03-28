@@ -1,0 +1,20 @@
+@import './components/variables/reset.scss';
+@import './components/variables/variables.scss';
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $off-black;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        background-color: $dark-grey;
+        height: 36.188rem;
+        width: 20.438rem;
+        padding: 1.438rem;
+        border-radius: 0.6rem;
+    }
+    
+}
