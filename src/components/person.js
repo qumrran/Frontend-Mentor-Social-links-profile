@@ -17,4 +17,4 @@ const person = {
     }
   };
   
-  export default person;
+export default person;

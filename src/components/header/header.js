@@ -1,9 +1,8 @@
 import './header.scss';
-import person from '../person.js';
 
 
 
-function header() {
+function Header({person}) {
     return (
       <header className="header">
         <img src={person.image} alt={person.alt} />
@@ -16,4 +15,4 @@ function header() {
 
 
 
-export default header;
+export default Header;

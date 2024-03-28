@@ -1,8 +1,7 @@
 import './App.scss';
 import Header from './components/header/header';
 import ButtonPanel from './components/button_panel/buttonPanel';
-
-
+import person from './components/person.js';
 
 
 
@@ -10,8 +9,8 @@ import ButtonPanel from './components/button_panel/buttonPanel';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <ButtonPanel />
+      <Header person = {person}/>
+      <ButtonPanel person = {person}/>
     </div>
   );
 }

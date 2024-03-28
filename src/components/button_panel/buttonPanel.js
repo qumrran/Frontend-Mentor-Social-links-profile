@@ -1,18 +1,18 @@
 import './buttonPanel.scss'
-import person from '../person.js';
 
-function buttonPanel () {
+
+function ButtonPanel ({person}) {
     return (
-        <section className='btnPanel'>
-         <button className='btnPanel_button'> </button>
-         <button className='btnPanel_button'> </button>
-         <button className='btnPanel_button'> </button>
-         <button className='btnPanel_button'> </button>
-         <button className='btnPanel_button'> </button>
+        <section>
+        <a href={person.socialMedia.github} className='btnPanel_button'>Github</a>
+        <a href={person.socialMedia.frontendMentor} className='btnPanel_button'>Frontend Mentor</a>
+        <a href={person.socialMedia.linkedin} className='btnPanel_button'>LinkedIn</a>
+        <a href={person.socialMedia.twitter} className='btnPanel_button'>Twitter</a>
+        <a href={person.socialMedia.instagram} className='btnPanel_button'>Instagram</a>
         </section>
        
     )
 }
 
 
-export default buttonPanel;
+export default ButtonPanel;
